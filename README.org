@@ -1,0 +1,23 @@
+#+TITLE: Taking Spac(emacs), Go and the ii workflow on the Road
+
+An initial start at getting various technologies together with the ii workflow so it's easy to explore them on more systems.
+
+Warning: The container is large! approx ~4GB. Depending on your machine and internet connection it may take some time to build the docker container.
+
+* Usage:
+
+#+BEGIN_SRC shell
+  git clone https://github.com/heyste/iigomacs
+  cd iigomacs
+  ./boot.sh
+#+END_SRC
+
+/Note: You will need to clean up any old docker containers/images./
+
+* References
+
+- [[https://github.com/iimacs/site-lisp][Github: iimacs/site-lisp]]
+- [[https://github.com/ii/spacemacs/tree/stable][Github: ii/spacemacs (stable)]]
+- [[https://magit.vc/manual/forge/][Magit: Forge]]
+- [[https://gitlab.ii.coop/ii/tooling/ob-tmate][ob-tmate]]
+- [[https://golang.org/][The Go programming language]]
