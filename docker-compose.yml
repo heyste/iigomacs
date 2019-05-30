@@ -10,3 +10,5 @@ services:
     volumes:
       - '/tmp/iigomacs:/home/emacs'
       - '${SSH_AUTH_SOCK}:${SSH_AUTH_SOCK}'
+      - '/etc/timezone:/etc/timezone:ro'
+      - '/etc/localtime:/etc/localtime:ro'
