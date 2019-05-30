@@ -8,5 +8,5 @@ services:
     environment:
       - SSH_AUTH_SOCK
     volumes:
-      - '/tmp/user:/user'
+      - '/tmp/iigomacs:/home/emacs'
       - '${SSH_AUTH_SOCK}:${SSH_AUTH_SOCK}'
