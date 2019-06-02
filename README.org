@@ -12,6 +12,18 @@ Warning: The container is large! approx ~4GB. Depending on your machine and inte
   ./boot.sh
 #+END_SRC
 
+Join a running iigomacs container as a standard user
+
+#+BEGIN_SRC shell
+  ./join.sh
+#_END_SRC
+
+or as root.
+
+#+BEGIN_SRC shell
+  ./join-as-root.sh
+#_END_SRC
+
 /Note: You will need to clean up any old docker containers/images./
 
 * References
