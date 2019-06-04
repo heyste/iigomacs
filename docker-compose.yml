@@ -3,7 +3,7 @@ services:
   iigomacs:
     build: .
     user: "${CURRENT_ID}"
-    restart: always
+    restart: "no"
     hostname: 'gomacs'
     environment:
       - SSH_AUTH_SOCK
